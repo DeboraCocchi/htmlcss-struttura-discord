@@ -14,17 +14,24 @@ body{
   margin:0 auto;
   width:70%;
   text-align:center;
-  border:1px dotted white;
+  border:1px dotted black;
 }
+
+
+/* header */
 
 header{
   background-color: #1e3b87;
   color:white;
   height:100px;
   padding:15px;
+}
+
+header .header-content{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding:15px;  
 }
 
 header .logo-header{
@@ -52,4 +59,93 @@ header .menu a{
 
 header button{
   padding:5px 10px;
+}
+
+/* jumbotron */
+.jumbotron{
+  background-color: #3f558f;
+  height:350px;
+  display:flex;
+  align-items: center;
+}
+
+.jumbotron .jumbo-content{
+  margin:0 auto;
+  padding:20px;
+  text-align: center;
+  border:1px solid yellow;
+  width:50%;
+  max-width:800px;
+  color:white;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.jumbotron .jumbo-content *{
+  margin:15px 0;
+}
+
+.jumbotron .jumbo-content h1{
+  font-weight:800;
+  font-size:30px;
+}
+
+.jumbotron .jumbo-content button{
+  padding:15px 20px;
+  font-size:110%;
+}
+
+.main-content{
+  height:500px;
+  padding:30px;
+  display: flex;
+  align-items: center;
+}
+
+.white{
+  background-color: white;
+}
+
+.grey{
+  background-color: #f6f6f6;
+}
+
+main .columns{
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.col{
+  padding:30px; 
+}
+
+.narrow.col{
+  width:35%;
+  text-align: left;
+}
+
+.large.col{
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dummy-img{
+  height:350px;
+  width:400px;
+  background-color: darkviolet;
+}
+
+.text-content h2{
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.second-dummy-img{
+  height:400px;
+  background-color: violet;
+  color:white;
 }
