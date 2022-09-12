@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Work Sans', sans-serif;
+  background-color:#99a4a4;
+}
+
+.container{
+  max-width:1200px;
+  margin:0 auto;
+  width:70%;
+  text-align:center;
+  border:1px dotted white;
+}
+
+header{
+  background-color: #1e3b87;
+  color:white;
+  height:100px;
+  padding:15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo-header{
+  border:1px dashed white;
+  padding:5px;
+}
+
+header .menu ul{
+  list-style: none;
+  display:flex;
+  padding:10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header .menu ul li{
+  margin:0 5px;
+}
+
+header .menu a{
+  text-decoration: none;
+  color:white;
+}
+
+header button{
+  padding:5px 10px;
+}
