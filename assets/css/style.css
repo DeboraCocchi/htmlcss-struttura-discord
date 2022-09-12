@@ -91,7 +91,7 @@ header button{
   font-size:30px;
 }
 
-.jumbotron .jumbo-content button{
+.jumbotron .jumbo-content button, .cta.container button{
   padding:15px 20px;
   font-size:110%;
 }
@@ -144,7 +144,21 @@ main .columns{
   font-weight: bold;
 }
 
-.second-dummy-img{
+.cta-content.grey{
+  padding:30px;
+  display: flex;
+  align-items: center;
+}
+
+.cta *{
+  margin:20px 0;
+}
+
+.cta.container h2, .cta.container p{
+  margin: 20px 15px;
+}
+
+.cta.container .second-dummy-img{
   height:400px;
   background-color: violet;
   color:white;
