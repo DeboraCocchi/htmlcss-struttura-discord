@@ -65,6 +65,7 @@ header button{
 
 .jumbotron{
   background-color: #3f558f;
+  /* altezza da togliere */
   height:350px;
   display:flex;
   align-items: center;
@@ -97,6 +98,7 @@ header button{
 }
 
 .main-content{
+  /* h da togliere */
   height:500px;
   padding:30px;
   display: flex;
@@ -168,7 +170,6 @@ main .columns{
 
 footer{
   background-color: #23272a;
-  height: 500px;
   padding: 40px 0px;
 }
 
@@ -226,6 +227,6 @@ footer .footer-stripe{
   align-items: center;
 }
 
-footer button{
+footer .footer-stripe button{
   padding:10px 15px;
 }
